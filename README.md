@@ -13,10 +13,25 @@ https://datadryad.org/stash/dataset/doi:10.5061/dryad.5hqbzkh6f
 4) Run command 'pip install -r requirements.txt' for install essential libraries
 
 
-
 ### Steps for Data Loading and  preprocessing
 1) Download the Dataset and copy it to 'Data/' Folder
 2) Run 'unzip_script_1.py' for Perform Unzipping Operation
 3) Run 'combine_data_script_2.py' for combining the different sensor values and store to csv files
 4) Run 'merge_data_script_3.py' for Merging the csv files
 5) Run 'label_data_script_4.py' for Labelling the merged data
+
+
+### Training
+
+For Training the RandomForest Classifier
+1) Run command 'python train.py'
+
+The trained model will saved on the 'Models/' Folder
+
+
+### Testing (Demo)
+
+1) Run command 'python test.py'
+
+Input the test data from 'test_data.csv' file. The output will be predicted on the gui.
+
