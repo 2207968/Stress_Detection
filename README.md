@@ -8,6 +8,11 @@ https://datadryad.org/stash/dataset/doi:10.5061/dryad.5hqbzkh6f
 
 ### Environment Setup
 1) Install Anaconda ( https://www.filehorse.com/download-anaconda-64/download/ )
+2) Create a virtual environment in anaconda using the command 'conda create -n environment_name python=3.6'  #You can change the python version according to your need
+3) Activate created virtual environment using the command 'conda activate environment_name'
+4) Run command 'pip install -r requirements.txt' for install essential libraries
+
+
 
 ### Steps for Data Loading and  preprocessing
 1) Download the Dataset and copy it to 'Data/' Folder
